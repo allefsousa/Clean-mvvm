@@ -5,6 +5,9 @@ buildscript {
         google()
         jcenter()
     }
+    apply from: 'config/dependencies/dependencies.gradle'
+    apply from: 'config/dependencies/test_dependencies.gradle'
+
     dependencies {
         classpath "com.android.tools.build:gradle:4.1.2"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"

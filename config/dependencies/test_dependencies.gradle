@@ -1,0 +1,16 @@
+ext.test = [
+
+        androidx   : [
+                coroutines : "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.4.1",
+                espressoCore : "androidx.test.espresso:espresso-core:3.3.0",
+                espressoIntent : "androidx.test.espresso:espresso-intents:3.1.0",
+                fragmentTest : "androidx.fragment:fragment-testing:1.2.4",
+                androidRunner : "androidx.test:runner:1.1.0",
+                androidRules : "androidx.test:rules:1.2.0",
+                archCore : "androidx.arch.core:core-testing:2.1.0",
+                junitExt : "androidx.test.ext:junit:1.1.2",
+                junit : "junit:junit:4.13.1",
+                koinTest: "org.koin:koin-test:2.2.2"
+        ]
+
+]
